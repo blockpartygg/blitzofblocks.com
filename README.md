@@ -1,2 +1,2 @@
 # clashofblocksgg
-The public site for Clash of Blocks
+The Clash of Blocks website @ https://blockpartygg.github.io/clashofblocksgg
