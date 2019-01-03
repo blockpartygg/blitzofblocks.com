@@ -11,7 +11,11 @@
     <link rel="stylesheet" href="style.css">
     <script src="Build/UnityLoader.js"></script>
     <script>
-      function HandleProgress(gameInstance, progress) {}
+      function HandleProgress(gameInstance, progress) {
+        if(progress == 1) {
+          document.getElementById("loading").style.display = "none";
+        }
+      }
       UnityLoader.Error.handler = function() {};
       var game = UnityLoader.instantiate("game", "Build/WebGL.json", { onProgress: HandleProgress });
     </script>
@@ -24,7 +28,11 @@
     </script>
   </head>
   <body>
-    <div id="game" style="width: 1920px; height: 1080px"></div>
+    <div id="game"></div>
+    <div id="loading">
+      <img class="blockPartyLogo" src="blockPartyLogo.png" />
+      <img class="spinner" src="spinner.gif" />
+    </div>
     <script src="gameScaler.js"></script>
   </body>
 </html>
