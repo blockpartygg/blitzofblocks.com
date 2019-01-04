@@ -101,3 +101,14 @@ strong {
     height: 50px;
     margin: 25px;
 }
+
+.legalContent {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.legalLink {
+    color: white;
+    text-decoration: none;
+}
