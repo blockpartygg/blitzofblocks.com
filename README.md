@@ -1,2 +1,2 @@
-# clashofblocksgg
-The Clash of Blocks website @ https://blockpartygg.github.io/clashofblocksgg
+# blitzofblocks.com
+The Blitz of Blocks website @ https://blockpartygg.github.io/blitzofblocks.com
