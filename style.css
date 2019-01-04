@@ -1,0 +1,101 @@
+body {
+    background: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+video {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+    filter: opacity(0.2);
+}
+
+.container {
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    top: 5%;
+    bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: row;
+}
+
+.leadContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clashOfBlocksLogo {
+    width: 50%;
+}
+
+.lead {
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.button {
+    background-color: #f02143;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.featuresContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature {
+    font-size: 18px;
+    text-align: center;
+}
+
+strong {
+    color: #f02143;
+}
+
+.footerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.callToAction {
+    text-align: center;
+}
+
+.marketingLinks {
+    display: flex;
+    flex-direction: row;
+}
+
+.linkImage {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
